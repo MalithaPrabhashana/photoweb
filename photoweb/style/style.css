@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Oval &display=swap');
+
+.bg {
+    background-color: #F0F2F5;
+}
+
+.navbar-brand {
+    font-family: 'Nova Oval', cursive;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.nav-link:hover {
+    border-bottom: 2px solid green;
+}
+
+.bg-img {
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../img/5.jpg');
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    height: 570px;
+}
+
+#main-title {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+.main-content {
+    margin-top: 180px;
+}
+
+#login-button,
+#signup-button {
+    border-radius: 30px;
+    background-color: #00AB6B;
+    color: #fff;
+    font-size: 18px;
+}
+
+#login-button:hover,
+#signup-button:hover {
+    background-color: #095c3d;
+}
+
+.shift-button-login,
+.shift-button-signup {
+    border: none;
+    background-color: #fff;
+    margin-bottom: 25px;
+    margin-top: 20px;
+}
+
+.shift-button-login:hover,
+.shift-button-signup:hover {
+    color: #00AB6B;
+    border-bottom: 2px solid #00AB6B;
+}
+
+.select-login-button {
+    color: #00AB6B;
+    border-bottom: 2px solid #00AB6B;
+}
+
+.modal-title {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.modal-header {
+    background-color: #00AB6B;
+}
+
+#search-image {
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    font-size: 18px;
+}
+
+#search-icon {
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.gallery {
+    /* column-count: 4; */
+    padding: 1rem 5%;
+}
+
+.gallery .box img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.gallery .box {
+    padding: 0.5rem;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.gallery .box .info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.gallery .box .info .fa-download {
+    margin: 1.5rem;
+    padding: 0.5rem 0.7rem;
+    font-size: 1rem;
+    color: #333;
+    background: #fff;
+    box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+.gallery .box .info .links {
+    margin-right: 18px;
+    margin-bottom: 2px;
+}
+
+.gallery .box .info .fa-heart,
+.gallery .box .info .fa-comment,
+.gallery .box .info .fa-thumbs-up {
+    margin: 0.2rem 0 1rem;
+    padding: 0.4rem;
+    font-size: 0.8rem;
+    color: #fff;
+    background: black;
+    box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+.gallery .box .info .fa-heart {
+    color: #fa006c;
+    background-color: #fff;
+}
+
+.gallery .box .info .fa-comment {
+    color: #00fa25;
+    background-color: #fff;
+}
+
+.gallery .box .info .fa-thumbs-up {
+    color: #043dcf;
+    background-color: #fff;
+}
+
+.gallery .box .info .fa-heart:hover {
+    color: #fff;
+    background-color: #fa006c;
+}
+
+.gallery .box .info .fa-comment:hover {
+    color: #fff;
+    background-color: #00fa25;
+}
+
+.gallery .box .info .fa-thumbs-up:hover {
+    color: #fff;
+    background-color: #043dcf;
+}
+
+.gallery .box .info .fa-download:hover {
+    background-color: rgb(13, 174, 61);
+    color: #fff;
+}
+
+.fa-user-circle {
+    font-size: 25px;
+}
+
+.hide {
+    display: none;
+}
+
+.error {
+    color: red;
+}
+
+.alert {
+    display: flex;
+}
+
+.close-alert {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 30px;
+    transform: translateY(-50%);
+    margin-right: 20px;
+}
+
+.select-img {
+    border: 3px inset rgb(253, 47, 47);
+}
+
+
+@media only screen and(max-width: 768px) {
+    .login,
+    .join {
+        width: 50%;
+    }
+
+    .login:hover,
+    .join:hover {
+        background-color: #7AAC70;
+        color: #1C4D13;
+    }
+
+    #search-image,
+    #search-icon {
+        height: 40px;
+        font-size: 16px;
+    }
+
+    #search-icon {
+        border-bottom-right-radius: 25px;
+        border-top-right-radius: 25px;
+    }
+
+}
+
+
+@media only screen and(max-width: 768px) {
+    .login,
+    .join {
+        width: 50%;
+    }
+
+    .login:hover,
+    .join:hover {
+        background-color: #7AAC70;
+        color: #1C4D13;
+    }
+
+    #search-image,
+    #search-icon {
+        height: 40px;
+        font-size: 16px;
+    }
+
+    #search-icon {
+        border-bottom-right-radius: 25px;
+        border-top-right-radius: 25px;
+    }
+
+}
